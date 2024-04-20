@@ -28,6 +28,7 @@ export default defineConfig({
         baseURL: process.env.baseURL ? process.env.baseURL : 'http://google.com/',
         /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
         trace: 'on-first-retry',
+        screenshot: 'on'
     },
 
     /* Configure projects for major browsers */
